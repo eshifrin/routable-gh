@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c90746ec-371b-41c9-accd-8267cb95216c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Counter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/github.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -39,6 +47,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
@@ -52,7 +61,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589661838344</updated>
-      <workItem from="1589661845003" duration="4917000" />
+      <workItem from="1589661845003" duration="9353000" />
+      <workItem from="1589730636201" duration="2886000" />
     </task>
     <servers />
   </component>
@@ -60,10 +70,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="109" key="DiffContextDialog" timestamp="1589662407416">
+    <state x="124" y="87" width="2048" height="845" key="DiffContextDialog" timestamp="1589733795852">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="0" y="109" key="DiffContextDialog/0.23.2560.1057@0.23.2560.1057" timestamp="1589662407416" />
+    <state x="124" y="87" width="2048" height="845" key="DiffContextDialog/0.23.2560.1057@0.23.2560.1057" timestamp="1589733795852" />
+    <state x="363" y="323" width="667" height="615" key="EditFileWatcherDialog" timestamp="1589730671390">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="363" y="323" width="667" height="615" key="EditFileWatcherDialog/0.23.2560.1057@0.23.2560.1057" timestamp="1589730671390" />
+    <state x="1643" y="-90" width="667" height="615" key="EditFileWatcherDialog/1280.-397.2560.1080/0.23.1280.777@1280.-397.2560.1080" timestamp="1589730568762" />
     <state width="1296" height="284" key="GridCell.Tab.0.bottom" timestamp="1589679273259">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
@@ -88,13 +103,24 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="465" y="284" key="MultipleFileMergeDialog/0.23.2560.1057@0.23.2560.1057" timestamp="1589662415109" />
-    <state x="206" y="181" key="SettingsEditor" timestamp="1589682203468">
+    <state x="206" y="181" key="SettingsEditor" timestamp="1589730673876">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="206" y="181" key="SettingsEditor/0.23.2560.1057@0.23.2560.1057" timestamp="1589682203468" />
-    <state x="362" y="253" width="670" height="676" key="search.everywhere.popup" timestamp="1589677445267">
+    <state x="206" y="181" key="SettingsEditor/0.23.2560.1057@0.23.2560.1057" timestamp="1589730673876" />
+    <state x="1486" y="-236" key="SettingsEditor/1280.-397.2560.1080/0.23.1280.777@1280.-397.2560.1080" timestamp="1589730570630" />
+    <state x="520" y="257" key="VcsDiffUtil.ChangesDialog" timestamp="1589734159493">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="362" y="253" width="670" height="676" key="search.everywhere.popup/0.23.2560.1057@0.23.2560.1057" timestamp="1589677445267" />
+    <state x="520" y="257" key="VcsDiffUtil.ChangesDialog/0.23.2560.1057@0.23.2560.1057" timestamp="1589734159493" />
+    <state x="277" y="241" width="782" height="550" key="find.popup" timestamp="1589730887603">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="277" y="241" width="782" height="550" key="find.popup/0.23.2560.1057@0.23.2560.1057" timestamp="1589730887603" />
+    <state x="362" y="253" width="670" height="676" key="search.everywhere.popup" timestamp="1589734224765">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="181" y="192" width="670" height="497" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1589695642634" />
+    <state x="362" y="253" width="670" height="676" key="search.everywhere.popup/0.23.2560.1057@0.23.2560.1057" timestamp="1589734224765" />
+    <state x="1642" y="-162" width="1340" height="691" key="search.everywhere.popup/1280.-397.2560.1080/0.23.1280.777@1280.-397.2560.1080" timestamp="1589730557351" />
   </component>
 </project>
