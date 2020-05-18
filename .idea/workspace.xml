@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c90746ec-371b-41c9-accd-8267cb95216c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Repos.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Counter.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/github.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/github.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,22 +61,58 @@
       <option name="presentableId" value="Default" />
       <updated>1589661838344</updated>
       <workItem from="1589661845003" duration="9353000" />
-      <workItem from="1589730636201" duration="8897000" />
+      <workItem from="1589730636201" duration="14537000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="407" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589765072814">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="407" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1589765072814" />
-    <state x="124" y="87" width="2048" height="845" key="DiffContextDialog" timestamp="1589735472525">
+    <state x="124" y="87" width="2048" height="845" key="DiffContextDialog" timestamp="1589823176175">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="124" y="87" width="2048" height="845" key="DiffContextDialog/0.23.2560.1057@0.23.2560.1057" timestamp="1589735472525" />
+    <state x="124" y="87" width="2048" height="845" key="DiffContextDialog/0.23.2560.1057@0.23.2560.1057" timestamp="1589823176175" />
     <state x="363" y="323" width="667" height="615" key="EditFileWatcherDialog" timestamp="1589730671390">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
@@ -112,20 +148,20 @@
     <state x="103" y="78" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1589761019834" />
     <state x="206" y="181" key="SettingsEditor/0.23.2560.1057@0.23.2560.1057" timestamp="1589730673876" />
     <state x="1486" y="-236" key="SettingsEditor/1280.-397.2560.1080/0.23.1280.777@1280.-397.2560.1080" timestamp="1589730570630" />
-    <state x="520" y="257" key="VcsDiffUtil.ChangesDialog" timestamp="1589734640149">
+    <state x="520" y="257" key="VcsDiffUtil.ChangesDialog" timestamp="1589823151505">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="520" y="257" key="VcsDiffUtil.ChangesDialog/0.23.2560.1057@0.23.2560.1057" timestamp="1589734640149" />
+    <state x="520" y="257" key="VcsDiffUtil.ChangesDialog/0.23.2560.1057@0.23.2560.1057" timestamp="1589823151505" />
     <state x="139" y="183" width="670" height="486" key="find.popup" timestamp="1589765062055">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="139" y="183" width="670" height="486" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1589765062055" />
     <state x="277" y="241" width="782" height="550" key="find.popup/0.23.2560.1057@0.23.2560.1057" timestamp="1589730887603" />
-    <state x="181" y="192" width="670" height="497" key="search.everywhere.popup" timestamp="1589763538645">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="362" y="253" width="670" height="676" key="search.everywhere.popup" timestamp="1589820720163">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="181" y="192" width="670" height="497" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1589763538645" />
-    <state x="362" y="253" width="670" height="676" key="search.everywhere.popup/0.23.2560.1057@0.23.2560.1057" timestamp="1589734224765" />
+    <state x="362" y="253" width="670" height="676" key="search.everywhere.popup/0.23.2560.1057@0.23.2560.1057" timestamp="1589820720163" />
     <state x="1642" y="-162" width="1340" height="691" key="search.everywhere.popup/1280.-397.2560.1080/0.23.1280.777@1280.-397.2560.1080" timestamp="1589730557351" />
   </component>
 </project>

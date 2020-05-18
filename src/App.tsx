@@ -2,11 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
 import Login from "./components/Login"
+import Repos from './components/Repos'
 
 function App() {
   return (
     <div className="App">
       <Login />
+      <Repos/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
