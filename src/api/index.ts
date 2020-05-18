@@ -16,28 +16,28 @@ export type Issue = {
   title: string;
 };
 
-type listUserReposResponse = Endpoints["GET /repos/:owner/:repo"]["response"];
+// hack to get type of a single repo - the actual api for /user/repos uses 'any'
+type listUserRepo = Endpoints["GET /repos/:owner/:repo"]["response"];
 type listIssuesResponse = Endpoints["GET /issues"]["response"];
 
 class Api {
   private client: Octokit;
   constructor(token: string) {
-    try {
-      this.client = new Octokit({ auth: token });
-    } catch (e) {
-      console.log(e);
-      throw new Error("Error logging in");
-    }
+    this.client = new Octokit({ auth: token });
   }
 
   getRepos = async (): Promise<Repo[]> => {
     try {
       const repos = await this.client.repos.listForAuthenticatedUser();
-      return repos.data.map((r: listUserReposResponse["data"]) => ({
-        name: r.name,
-        url: r.html_url,
-        owner: r.owner,
-      }));
+
+      return (
+        repos.data &&
+        repos.data.map((r: listUserRepo["data"]) => ({
+          name: r.name,
+          url: r.html_url,
+          owner: r.owner.login,
+        }))
+      );
     } catch (e) {
       console.log(e);
       throw new Error("Error fetching repos");
